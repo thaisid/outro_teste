@@ -18,4 +18,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/site,', \App\Http\Livewire\Site::class);
+Route::get('/site', Site::class);
